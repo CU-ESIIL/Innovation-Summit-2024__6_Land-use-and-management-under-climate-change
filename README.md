@@ -1,21 +1,22 @@
 [![DOI](https://zenodo.org/badge/800254469.svg)](https://zenodo.org/doi/10.5281/zenodo.11189011)
 
-# [Your Team Name]
+# [Team 6]
 
-Welcome to the **[Your Team Name]** repository, an integral part of ESIIL and Earth Lab's Forest Carbon Codefest. This repository is the central hub for our team, encompassing our project overview, team member information, codebase, and more...
+Welcome to the **Team 6 Resilience/LULC Change** repository, an integral part of ESIIL and Earth Lab's Forest Carbon Codefest. This repository is the central hub for our team, encompassing our project overview, team member information, codebase, and more...
 
 #practice edit
 
 ## Our Project
-[Provide a brief overview of your project here.
+We aim to implement a case study to identify how land use change over time influences social and ecological resilience.
 
 ## Documentation
 - Access detailed documentation on our [GitHub Pages site](https://your-gh-pages-url/).
 
 
 ## Group Members
-- Member 1: Brief description
-- Member 2: Brief description
+- Danyan Leng
+- Bela Starinchak
+- 
 - ...
 - [Link to more detailed bios or profiles if available and desired.]
 
