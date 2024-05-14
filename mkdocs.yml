@@ -1,11 +1,11 @@
-site_name: 'ESIIL Innovation Summit 2024'
-site_description: 'Summit 2024'
+site_name: 'ESIIL Innovation Summit 2024 Group 6'
+site_description: 'Summit 2024 Group 6'
 site_author: ESIIL staff
-site_url: https://cu-esiil.github.io/innovation-summit-2024
+site_url: https://cu-esiil.github.io/innovation-summit-2024-group-6
 
 # Repository
-repo_name: Innovation-Summit-2024
-repo_url: https://github.com/CU-ESIIL/Innovation-Summit-2024
+repo_name: Innovation-Summit-2024__6_Land-use-and-management-under-climate-change
+repo_url: https://github.com/CU-ESIIL/Innovation-Summit-2024__6_Land-use-and-management-under-climate-change
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
