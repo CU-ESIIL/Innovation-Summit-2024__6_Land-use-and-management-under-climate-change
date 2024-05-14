@@ -7,6 +7,8 @@ Welcome to the **Team 6 Resilience/LULC Change** repository, an integral part of
 #practice edit
 
 ## Our Project
+Shades of Resilience: How does Land Use Change Influence Social and Ecological Resilience?
+
 We aim to implement a case study to identify how land use change over time influences social and ecological resilience.
 
 ## Documentation
