@@ -1,0 +1,145 @@
+site_name: 'ESIIL Innovation Summit 2024'
+site_description: 'Summit 2024'
+site_author: ESIIL staff
+site_url: https://cu-esiil.github.io/innovation-summit-2024
+
+# Repository
+repo_name: Innovation-Summit-2024
+repo_url: https://github.com/CU-ESIIL/Innovation-Summit-2024
+edit_uri: edit/main/docs/
+# Copyright
+copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
+
+# Page tree
+nav:
+  - Home: index.md
+  - Pre-Summit Virtual Trainings: 
+       - Overview: virtual-meetings.md
+       - Head in the clouds:
+           - Markdown: resources/markdown_basics.md
+           - Github: resources/github_basics.md
+           - Cyverse: resources/cyverse_basics.md
+           - Cyverse hacks: resources/cyverse_hacks.md
+       - Feet on the ground: 
+           - Startup procedure: resources/cyverse_startup.md
+           - Move and Save data: data-library/move-data-to-instance.md
+           - Stream data: data-library/stac_mount_save.md
+           - Stream data (light): data-library/stac_simple.md
+           - Shutdown procedure: resources/cyverse_shutdown.md
+       - Voices in Concert: trainings/training_three.md
+  - Group activities:
+       - Day 1: 
+           - Explore an example (student edition): worksheets/worksheet_0.md
+           - Explore an example (teacher edition): worksheets/worksheet_redlining.md
+           - Make a plan: worksheets/worksheet_2.md
+       - Day 2: 
+           - Innovate as a team: worksheets/worksheet_3.md
+       - Day 3: 
+           - Share your progress: worksheets/worksheet_4.md
+  - Additional resources:
+       - Agenda: agenda.md
+       - Anonymous feedback form: https://docs.google.com/forms/d/e/1FAIpQLSfibPgHoYytmKvHkDiMxxbTNwdSupB2V2R_2zJC6BBw9asRMA/viewform
+       - Code of Conduct: additional-resources/code-of-conduct.md
+       - Participant Agreement: additional-resources/participant_agreement.md
+       - Cyverse hacks: additional-resources/cyverse_hacks.md
+       - Useful links: additional-resources/useful_links.md
+
+# Configuration
+theme:
+  highlightjs: true
+  name: material
+  font:
+    text: 'Open Sans'
+    code: 'Roboto Mono'
+  logo: 'assets/esiil_content/ESIIL_logo.png'
+  favicon: 'assets/esiil_content/favicon.ico'
+  # setting features for the navigation tab
+  toc:
+    position: right
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate
+    - toc.follow
+    - content.code.copy
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: white)"
+      primary: 'white'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+
+# Options
+extra:
+  social:
+    - icon: fontawesome/brands/github
+    # link: https://github.com/cu-esiil/
+
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: collapsible
+          class: collapsible
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+    - search
+    - mkdocstrings
+    - git-revision-date
+    - mkdocs-jupyter:
+          include_source: True
+          ignore_h1_titles: False
