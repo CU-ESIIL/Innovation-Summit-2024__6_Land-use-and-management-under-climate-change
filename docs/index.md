@@ -21,6 +21,7 @@ Day 01 Notes:
 | | | LST |
 | | | Carbon Budget |
 | | | Disease |
+| | | Ecosystem Diversity|
 
 
 _Case Study_
