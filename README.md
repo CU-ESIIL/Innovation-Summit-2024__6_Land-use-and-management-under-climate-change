@@ -18,7 +18,13 @@ We aim to implement a case study to identify how land use change over time influ
 ## Group Members
 - Danyan Leng
 - Bela Starinchak
-- 
+- Rodrigo
+- Daniel
+- Courtney
+- Nayoni
+- Danielle
+- Tyler
+- Liz
 - ...
 - [Link to more detailed bios or profiles if available and desired.]
 
