@@ -42,6 +42,7 @@ Day 2 report-back questions are about the team *process*. We are interested in y
 
 1. **What worked well for your team?**
       - Using our different backgrounds to address each parts of our question. i.e. we had social scientists, statisticians (for analyses), ecologists, data scientists etc., breaking up action items
+      - Voting with the gradient system, point system, etc.
 3. **What’s one thing you would change?**
 4. **Did your group ever have an “ah-ha” moment?  What led up to that moment?**
      - Not yet! Individual ah-ha's were more centered on learning (github, R, learning about new data!)
