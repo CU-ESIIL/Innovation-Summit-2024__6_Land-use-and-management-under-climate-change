@@ -17,7 +17,8 @@ Please share the following informaton with your team. (No need to write down you
 - Name
 - Pronouns
 - Reflecting on Day 1, what is something that surprised you? (other things we thought about)
-     *Reflections*
+
+   *Reflections*
   - Define resilience more specifically
   - Not easy to observe what we want with remote sensing
   - Lots of work already on land use/disaster mitigation --> how do we make sure any of this research hasn't been already done? Also can we prioritize making our work publicly available and useful to those who would most benefit (applicable?)
@@ -40,21 +41,28 @@ Use the gradient of agreement (Kaner 20214) to make decisions as a team.
 Day 2 report-back questions are about the team *process*. We are interested in your team’s unique experience. Below are some prompts you might consider. You don't need to address all of them - choose which ones you want to present. Please limit your reflection to 2-3 mins.  
 
 1. **What worked well for your team?**
+    - Using our different backgrounds to address each parts of our question. i.e. we had social scientists, statisticians (for analyses), ecologists, data scientists etc. 
 3. **What’s one thing you would change?**
 4. **Did your group ever have an “ah-ha” moment?  What led up to that moment?**
-5. **Did your group experience the groan zone?  What is one tip you want to share with future groups at the Summit about getting through the groan zone?**
-     - [insert your group reflection responses here]
+   - Not yet! 
+6. **Did your group experience the groan zone?  What is one tip you want to share with future groups at the Summit about getting through the groan zone?**
+   - We went in and out. At first we struggled with narrowing down which datasets we wanted to use. We came to a consensus on variables which helped us move forward, but then we hit road blocks with the chosen datasets.
+
+Goal for tomorrow: Visualize what we have and focus our direction for post-summit. Make an ArcGIS Online WebApp. 
 
 **************************************************************
 
 ### Looking Ahead: Day 3 Report Back
 *These are the prompts for the final Report Back **tomorrow (Day 3)** - start thinking about these questions as you work today. Each group will share their Day 3 GitHub page on the screen and give a 4 minute presentation.*
 
-- **Project Title:**
-- **Research Question:**
-- **One interesting graphic/finding:**
+- **Project Title:** 
+- **Research Question:** How does % change in land cover affect social and ecological resilience?
+- **One interesting graphic/finding:** 
 - **What are you thinking about doing next with your team? Long-term, short-term?**
+    Short Term: Creating a case study of CA, assessing correlation of land use/land cover change with biodiversity, climate resilience, and social factors (income, etc.)
+    Long Term: TBD
 - **What’s missing: what resources, people, data sets, etc. does your team need?**
+  
       
 ### Reminder
 There is the opportunity for groups to continue working on their projects as an ESIIL Working Group. If you love your team and want to continue working together, considering submitting a Working Group Application this fall. See the ESIIL website for more information: <https://esiil.org/working-groups>.
