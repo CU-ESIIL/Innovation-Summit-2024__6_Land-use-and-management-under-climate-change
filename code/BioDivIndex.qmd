@@ -19,11 +19,42 @@ library(mapview)
 library(tigris)
 
 bio_data <- glue("/vsizip/vsicurl/https://filelib.wildlife.ca.gov/Public/BDB/GIS/BIOS/Public_Datasets/2700_2799/ds2769.zip/ds2769.gdb") %>% st_read(layer = "ds2769")
+#https://map.dfg.ca.gov/metadata/ds2769.html
+glimpse(bio_data)
 
 plot(bio_data)
+glimpse(bio_data)
 
 counties <- counties(state = "CA")
 plot(counties)
+
+```
+
+## Extract data by county
+```{r}
+glimpse(counties)
+
+bio_index <- bio_data %>% select(c(SpBioRnkEco, TerrClimRank))
+crs <- crs(bio_index)
+counties_proj <- st_transform(counties, crs)
+
+joined_data <- st_join(bio_index, counties_proj)
+glimpse(joined_data) # there are more than 1 value for each county in this dataset
+getwd()
+write.csv(joined_data, "full_county_biodata.csv")
+
+# Calculate the mean and sd of each county's climate and bio index
+# Assuming 'joined_data' is your dataframe
+summary_stats <- joined_data %>%
+  group_by(COUNTYFP) %>%
+  summarise(
+    mean_SpBioRnkEco = mean(SpBioRnkEco, na.rm = TRUE),
+    sd_SpBioRnkEco = sd(SpBioRnkEco, na.rm = TRUE),
+    mean_TerrClimRank = mean(TerrClimRank, na.rm = TRUE),
+    sd_TerrClimRank = sd(TerrClimRank, na.rm = TRUE)
+  )
+glimpse(summary_stats)
+write.csv(summary_stats, "mean_county_biodata.csv")
 ```
 
 You can add options to executable code like this
