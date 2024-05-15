@@ -41,8 +41,9 @@ Use the gradient of agreement (Kaner 20214) to make decisions as a team.
 Day 2 report-back questions are about the team *process*. We are interested in your team’s unique experience. Below are some prompts you might consider. You don't need to address all of them - choose which ones you want to present. Please limit your reflection to 2-3 mins.  
 
 1. **What worked well for your team?**
-      - Using our different backgrounds to address each parts of our question. i.e. we had social scientists, statisticians (for analyses), ecologists, data scientists etc., breaking up action items
+      - Using our different backgrounds to address each parts of our question. i.e. we had social scientists, statisticians (for analyses), ecologists, data scientists etc., breaking up action items/delegating
       - Voting with the gradient system, point system, etc.
+      - whiteboard for visualization
 3. **What’s one thing you would change?**
 4. **Did your group ever have an “ah-ha” moment?  What led up to that moment?**
      - Not yet! Individual ah-ha's were more centered on learning (github, R, learning about new data!)
