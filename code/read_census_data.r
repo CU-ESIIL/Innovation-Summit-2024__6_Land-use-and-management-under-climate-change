@@ -1,25 +1,40 @@
 library(tidyverse)
-library(ggplot2)
 
 # Read in full community resiliency dataset from the census
 url <- 'https://www2.census.gov/programs-surveys/demo/datasets/community-resilience/2022/CRE_22_County.csv'
-resiliency_df <- read.csv(url(url))
+resiliency_df_2022 <- read.csv(url(url))
 
-# Rename columns to lower case
-colnames(resiliency_df) <- str_to_lower(colnames(resiliency_df))
+url <- 'https://www2.census.gov/programs-surveys/demo/datasets/community-resilience/2021/CRE_21_County.csv'
+resiliency_df_2021 <- read.csv(url(url))
+
+url <- 'https://www2.census.gov/programs-surveys/demo/datasets/community-resilience/2019/CRE_19_County.csv'
+resiliency_df_2019 <- read.csv(url(url))
 
 # Dataframe summary
-glimpse(resiliency_df)
+glimpse(resiliency_df_2022)
 
-# Subset for California
-resiliency_CA <- resiliency_df |> 
-  filter(state == 6) 
+# Subset data for california
+resiliency_CA_merge <- resiliency_df_2019 |>
+  left_join(resiliency_df_2021, by = "GEO_ID") |>
+  left_join(resiliency_df_2022, by = "GEO_ID") |>
+  filter(STATE.x == 6) %>%
+  select(GEO_ID, STATE, COUNTY, NAME, POPUNI.x, PRED0_PE.x, PRED12_PE.x, PRED3_PE.x, 
+        POPUNI.y, PRED0_PE.y, PRED12_PE.y, PRED3_PE.y,
+        POPUNI, PRED0_PE, PRED12_PE, PRED3_PE)
+  
+colnames(resiliency_CA_merge) <- str_to_lower(colnames(resiliency_CA_merge))
 
-# Show first 6 rows of data subset  
-head(resiliency_CA)
+colnames(resiliency_CA_merge) <- c('geo_id', 'state', 'county',  'name', 
+                                   'popuni_2019', 'pred0_pe_2019', 'pred12_pe_2019',
+                                   'pred3_pe_2019', 'popuni_2021', 'pred0_pe_2021', 
+                                   'pred12_pe_2021', 'pred3_pe_2021', 'popuni_2022', 
+                                   'pred0_pe_2022', 'pred12_pe_2022', 'pred3_pe_2022')
 
-# Histograms of percent of social vulnerabilities across the counties
-plot_vul_0 <- hist(resiliency_CA$pred0_pe)
-plot_vul_12 <- hist(resiliency_CA$pred12_pe)
-plot_vul_3 <- hist(resiliency_CA$pred3_pe)
+# View final DF
+View(resiliency_CA_merge)
 
+# Final DF Info
+str(resiliency_CA_merge)
+
+# Show first 6 rows of final dataset
+head(resiliency_CA_merge)
