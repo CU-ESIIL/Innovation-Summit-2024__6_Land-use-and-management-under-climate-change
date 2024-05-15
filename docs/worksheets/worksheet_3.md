@@ -16,7 +16,20 @@ Please complete the warm-up with your team, briefly review today’s objectives,
 Please share the following informaton with your team. (No need to write down your responses this time)
 - Name
 - Pronouns
-- Reflecting on Day 1, what is something that surprised you?
+- Reflecting on Day 1, what is something that surprised you? (other things we thought about)
+     *Reflections*
+  - Define resilience more specifically
+  - Not easy to observe what we want with remote sensing
+  - Lots of work already on land use/disaster mitigation --> how do we make sure any of this research hasn't been already done? Also can we prioritize making our work publicly available and useful to those who would most benefit (applicable?)
+  - A bit apprehensive about doing a summary/reinventing previous work. Exploratory phase is important but would be good to have concrete objective/outcome. Some things to think about: evaluating nature-based solutions. Potentially splitting off for a forestry based initiative sub group. Variables good but can we use an indicator?
+  - Can we find a sizeable study area? One dataset and one indicator. Maybe something that has both wild area & urban with two timestamps (AM) and then in afternoon we could expand.
+  - Get comfortable with systems/datasets
+  - Can we get a paper out of this??? plot something by today
+  - Stats: correlation on spatial data. Also general social survey - nationwide, large sample size, could request spatial information for data. For today: would be great to have a graph, but ideally just getting clear.
+  - Innovation: what can we do that's new?
+  - Workflow? what data are we using (feasibility)
+  - Relationship between social and ecological resilience. How are different solutions driving ecological and social resilience?
+  - Getting more comfortable with datasets
 
 ## Decision-Making
 Use the gradient of agreement (Kaner 20214) to make decisions as a team.
