@@ -1,0 +1,36 @@
+---
+title: "BiodiversityIndexData"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Load Data
+
+```{r}
+library(glue)
+library(tidyverse)
+library(sf)
+library(terra)
+library(mapview)
+library(tigris)
+
+bio_data <- glue("/vsizip/vsicurl/https://filelib.wildlife.ca.gov/Public/BDB/GIS/BIOS/Public_Datasets/2700_2799/ds2769.zip/ds2769.gdb") %>% st_read(layer = "ds2769")
+
+plot(bio_data)
+
+counties <- counties(state = "CA")
+plot(counties)
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
