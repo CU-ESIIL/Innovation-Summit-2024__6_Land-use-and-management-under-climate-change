@@ -13,16 +13,17 @@ Day 01 Notes:
 
 | Datasets      | Landuse Cat.  | Resilience |
 | ------------- | ------------- | ---------- |
-| LCMAP    | Albedo | Evapotranspiration |
+| **LCMAP**    | Albedo | Evapotranspiration |
 | LCMS | Fragementation (size/area of fragemnt  | Land connectivities
 | Environmental Defense Fund | NDVI | Happiness Index
-| Open Street Map data/density | % Change in vegetation and developed area | Mean age of given area
+| Open Street Map data/density | **% Change in vegetation and developed area** | Mean age of given area
 | US CENSUS data | Population Change | Urban Heat Island |
 | | | LST |
 | | | Carbon Budget |
 | | | Disease |
 | | | Ecosystem Diversity|
-| | | Biodiversity Index |
+| | | **Biodiversity Index** |
+| | | **Census community resiliency** |
 
 
 _Case Study_
