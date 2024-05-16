@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/800254469.svg)](https://zenodo.org/doi/10.5281/zenodo.11189011)
 
-# [Resilience/LULC Change]
+# Resilience/LULC Change
 
 Welcome to the **Team 6 Resilience/LULC Change** repository, an integral part of ESIIL and Earth Lab's Forest Carbon Codefest. This repository is the central hub for our team, encompassing our project overview, team member information, codebase, and more...
 
