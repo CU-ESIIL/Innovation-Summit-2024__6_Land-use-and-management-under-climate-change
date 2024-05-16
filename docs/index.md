@@ -28,11 +28,13 @@ Day 01 Notes:
 
 _Case Study_
 
-- Title : Shades of Resiilience
+- Title : Shades of Resilience
 - Question: How does land cover change affect social and environmental resilience?
 - Study Area: State of California
 
 
 
 ## Day 03 Project Update:
+![Summer Research Technician -- will assign period pay](https://github.com/CU-ESIIL/Innovation-Summit-2024__6_Land-use-and-management-under-climate-change/assets/168565557/98b24654-8797-4e58-93ec-feb5e2995adc)
+
 ---
