@@ -21,7 +21,7 @@ We aim to implement a case study to identify how land use change over time influ
 - Rodrigo
 - Daniel
 - Courtney
-- Nayoni
+- Nayani Ilangakoon
 - Danielle
 - Tyler
 - Liz
