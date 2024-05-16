@@ -13,10 +13,10 @@ Day 01 Notes:
 
 | Datasets      | Landuse Cat.  | Resilience |
 | ------------- | ------------- | ---------- |
-| LC MAP    | Albedo | Evapotranspiration |
+| LCMAP    | Albedo | Evapotranspiration |
 | LCMS | Fragementation (size/area of fragemnt  | Land connectivities
 | Environmental Defense Fund | NDVI | Happiness Index
-| Open Street Map data/density | % Change | Mean age of given area
+| Open Street Map data/density | % Change in vegetation and developed area | Mean age of given area
 | US CENSUS data | Population Change | Urban Heat Island |
 | | | LST |
 | | | Carbon Budget |
@@ -28,6 +28,7 @@ _Case Study_
 
 - Title : Shades of Resiilience
 - Question: How does land cover change affect social and environmental resilience?
+- Study Area: State of California
 
 
 
