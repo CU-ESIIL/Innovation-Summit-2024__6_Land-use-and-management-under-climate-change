@@ -35,6 +35,9 @@ _Case Study_
 
 
 ## Day 03 Project Update:
+![header](https://github.com/CU-ESIIL/Innovation-Summit-2024__6_Land-use-and-management-under-climate-change/assets/168565557/639a745d-b2a2-4e46-bf92-7c4a1ba575d0)
+
+
 ![Summer Research Technician -- will assign period pay](https://github.com/CU-ESIIL/Innovation-Summit-2024__6_Land-use-and-management-under-climate-change/assets/168565557/98b24654-8797-4e58-93ec-feb5e2995adc)
 
 ---
