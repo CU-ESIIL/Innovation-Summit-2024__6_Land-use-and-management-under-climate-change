@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/800254469.svg)](https://zenodo.org/doi/10.5281/zenodo.11189011)
 
-# [Team 6]
+# [Resilience/LULC Change]
 
 Welcome to the **Team 6 Resilience/LULC Change** repository, an integral part of ESIIL and Earth Lab's Forest Carbon Codefest. This repository is the central hub for our team, encompassing our project overview, team member information, codebase, and more...
 
@@ -12,7 +12,7 @@ Shades of Resilience: How does Land Use Change Influence Social and Ecological R
 We aim to implement a case study (state of California) to identify how land use change over time influences social and ecological resilience.
 
 ## Documentation
-- Access detailed documentation on our [GitHub Pages site](https://your-gh-pages-url/).
+- Access detailed documentation on our [GitHub Pages site]([https://your-gh-pages-url/](https://cu-esiil.github.io/Innovation-Summit-2024__6_Land-use-and-management-under-climate-change/).
 
 
 ## Group Members
@@ -28,7 +28,7 @@ We aim to implement a case study (state of California) to identify how land use 
 - Kelly Shreeve
 - Xiongwen Chen
 - Juan Lozano
-- [Link to more detailed bios or profiles if available and desired.]
+
 
 ## Code Repository Structure
 - **Data Processing**: Scripts for cleaning, merging, and managing datasets.
