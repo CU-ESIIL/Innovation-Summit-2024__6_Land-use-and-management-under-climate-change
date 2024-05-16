@@ -28,3 +28,8 @@ _Case Study_
 
 - Title : Shades of Resiilience
 - Question: How does land cover change affect social and environmental resilience?
+
+
+
+## Day 03 Project Update:
+---
