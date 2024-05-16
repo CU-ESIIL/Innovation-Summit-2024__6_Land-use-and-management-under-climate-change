@@ -9,7 +9,7 @@ Welcome to the **Team 6 Resilience/LULC Change** repository, an integral part of
 ## Our Project
 Shades of Resilience: How does Land Use Change Influence Social and Ecological Resilience?
 
-We aim to implement a case study to identify how land use change over time influences social and ecological resilience.
+We aim to implement a case study (state of California) to identify how land use change over time influences social and ecological resilience.
 
 ## Documentation
 - Access detailed documentation on our [GitHub Pages site](https://your-gh-pages-url/).
@@ -18,14 +18,16 @@ We aim to implement a case study to identify how land use change over time influ
 ## Group Members
 - Danyan Leng
 - Bela Starinchak
-- Rodrigo
-- Daniel
-- Courtney
+- Rodrigo Leite
+- Danielle Hopkins
+- Courtney King
 - Nayani Ilangakoon
-- Danielle
-- Tyler
-- Liz
-- ...
+- Danielle Howard
+- Tyler Mclntosh
+- Liz Buhr
+- Kelly Shreeve
+- Xiongwen Chen
+- Juan Lozano
 - [Link to more detailed bios or profiles if available and desired.]
 
 ## Code Repository Structure
